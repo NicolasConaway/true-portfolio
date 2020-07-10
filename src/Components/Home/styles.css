@@ -47,7 +47,7 @@
 
 span::before {
     content: "My";
-    animation: textChange .5s;
+    animation: textChange .75s;
     animation-delay: 5s;
 }
 
@@ -59,7 +59,13 @@ span::before {
     0% {
         content: "Nic";
     }
+    25% {
+        content: "Nic";
+    }
     50% {
+        content: "Conaway's";
+    }
+    75% {
         content: "Conaway's";
     }
     100% {
