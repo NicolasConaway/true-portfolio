@@ -21,9 +21,7 @@
 }
  .title h1 {
     color: black;
-    font-size: 3.8rem;
-    /* left: -100%;
-    position: relative; */
+    font-size: 3.6rem;
     font-weight: bold;
     text-shadow: 3px 3px rgb(255, 255, 255), -3px -3px rgb(255, 255, 255);
     text-transform: uppercase;
@@ -48,7 +46,7 @@
 }
 
 span::before {
-    content: "Nic's";
+    content: "My";
     animation: textChange .5s;
     animation-delay: 5s;
 }
@@ -59,12 +57,12 @@ span::before {
 
 @keyframes textChange {
     0% {
-        content: "Nic's";
+        content: "Nic";
     }
     50% {
-        content: 'Conaway';
+        content: "Conaway's";
     }
     100% {
-        content: "Nic's";
+        content: "My";
     }
 }
