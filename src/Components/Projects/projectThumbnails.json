@@ -1,0 +1,34 @@
+[
+    {
+        "name":"eCommerce (2nd Iteration)",
+        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "siteLink":"https://youthsheart.netlify.app/",
+        "githubLink":"https://github.com/NicolasConaway/post-ecommerce-2",
+        "id": 1
+    },
+    {
+        "name":"Project 2",
+        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "id": 2
+    },
+    {
+        "name":"Project 3",
+        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "id": 3
+    },
+    {
+        "name":"Project 4",
+        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "id": 4
+    },
+    {
+        "name":"Project 5",
+        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "id": 5
+    },
+    {
+        "name":"Project 6",
+        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "id": 6
+    }
+]

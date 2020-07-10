@@ -1,0 +1,163 @@
+.projects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projects h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.9rem;
+    margin: 4% 0 0 0;
+}
+.projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1%;
+}
+.saveMe {
+    margin: 1% 2%;
+    width: 25%;
+}
+.thumbnail {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 15px 0;
+    width: 100%;
+    height: 25vh;
+    cursor: pointer;
+    display: block;
+}
+.thumbnail:hover {
+    filter: brightness(70%);
+}
+.thumbnailName {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.card__container {
+     position: relative;
+}
+
+/* ----------------------------------------------
+------------------------------------------------- */
+.model__container {
+    border-radius: 15px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+}
+.model__container a {
+    color: #3d405b;
+    text-decoration: none;
+    
+}
+.modelRight {
+    background-color: #e07a5f;
+    border-radius: 15px 0 0 0;
+    border-right: 1px solid #3d405b;
+}
+.modelLeft {
+    background-color: #f2cc8f;
+    border-radius: 0 0 15px 0;
+    border-left: 1px solid #3d405b;
+}
+.modelRight,
+.modelLeft {
+    width: 12.35vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modelRight p,
+.modelLeft p {
+    margin: 0;
+}
+.modelRight:hover {
+    background-color: #ce735a;
+}
+.modelLeft:hover {
+    background-color: #dfbb82;
+}
+
+.noExit {
+    display: none
+}
+.exit {
+    width: 4.5vw;
+    height: 6vh;
+    background-color: #3d405b;
+    bottom: 0;
+    left: 41%;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 20;
+}
+.exit:hover {
+    background-color: #4e5374;
+}
+.rightX, 
+.leftX {
+    width: 1.9vw;
+    height: .4vh;
+    background-color: #f4f1de;
+    left: 29.5%;
+    top: 50%;
+    position: absolute;
+    border-radius: 40%;
+}
+.rightX {
+    transform: rotate(50deg) 
+}
+.leftX {
+    transform: rotate(-45deg) 
+}
+
+
+
+@media (max-width: 750px) {
+    .projects h1 {
+        font-size: 1.75rem;
+    }
+    .projects__container {
+        margin-top: 3%;
+    }
+    .saveMe {
+        width: 170px;
+        margin: 3% 2%;
+    }
+    .thumbnail {
+        height: 85px;
+    }
+    .thumbnailName {
+        font-size: .65rem;
+    }
+
+    /* ----------------------------------------------
+    ------------------------------------------------- */
+    .modelRight,
+    .modelLeft {
+        width: 85px;
+        height: 85px;
+    }
+    .modelRight p,
+    .modelLeft p {
+        font-size: .65rem;
+    }
+    .exit {
+        width: 37px;
+        height: 28.33px;
+        left: 40%;
+    }
+    .rightX, 
+    .leftX {
+        width: 15px;
+        height: 2px;
+    }
+}
