@@ -1,14 +1,16 @@
 [
+     {
+        "name":"Gateway Project",
+        "thumbnail":"./ProjectScreenshots/gateWayProject.png",
+        "siteLink":"https://tokyo-gateway.netlify.app/index.html",
+        "githubLink":"https://github.com/NicolasConaway/gateway-project",
+        "id": 1
+    },
     {
         "name":"eCommerce (2nd Iteration)",
         "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
         "siteLink":"https://youthsheart.netlify.app/",
         "githubLink":"https://github.com/NicolasConaway/post-ecommerce-2",
-        "id": 1
-    },
-    {
-        "name":"Project 2",
-        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
         "id": 2
     },
     {
