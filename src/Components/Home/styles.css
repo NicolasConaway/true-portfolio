@@ -1,0 +1,70 @@
+.home__container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(black, black), url('./HomeBackground.jpg');
+    background-blend-mode: saturation;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.title{
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+ .title h1 {
+    color: black;
+    font-size: 3.8rem;
+    /* left: -100%;
+    position: relative; */
+    font-weight: bold;
+    text-shadow: 3px 3px rgb(255, 255, 255), -3px -3px rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 5% 0 5% -100%;
+} 
+
+.welcome {
+    animation: slidein 1s forwards;
+    animation-delay: 1s;
+}
+.to {
+    animation: slidein 1s forwards;
+    animation-delay: 2s;
+}
+.nic {
+    animation: slidein 1s forwards;
+    animation-delay: 3s;
+}
+.portfolio {
+    animation: slidein 1s forwards;
+    animation-delay: 4s;
+}
+
+span::before {
+    content: "Nic's";
+    animation: textChange .5s;
+    animation-delay: 5s;
+}
+
+@keyframes slidein {
+    100% { margin-left: 5%; }
+}
+
+@keyframes textChange {
+    0% {
+        content: "Nic's";
+    }
+    50% {
+        content: 'Conaway';
+    }
+    100% {
+        content: "Nic's";
+    }
+}
