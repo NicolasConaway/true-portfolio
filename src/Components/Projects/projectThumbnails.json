@@ -24,8 +24,10 @@
         "id": 4
     },
     {
-        "name":"Project 5",
-        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "name":"Samsung Database",
+        "thumbnail":"./ProjectScreenshots/samsungDatabase.png",
+        "siteLink":"https://site-not-found.netlify.app/",
+        "githubLink":"https://github.com/NicolasConaway/samsung-database",
         "id": 5
     },
     {
