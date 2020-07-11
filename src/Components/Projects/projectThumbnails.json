@@ -29,8 +29,10 @@
         "id": 5
     },
     {
-        "name":"Project 6",
-        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "name":"MedBot",
+        "thumbnail":"./ProjectScreenshots/medBotApp.png",
+        "siteLink":"https://site-not-found.netlify.app/",
+        "githubLink":"https://github.com/NicolasConaway/med-bot-app",
         "id": 6
     }
 ]
