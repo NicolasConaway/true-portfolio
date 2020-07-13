@@ -1,17 +1,16 @@
-.myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+.wallpaper1 {
+    display: none;
+}
+.wallpaper2 {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    position: fixed;
+    filter: grayscale(80%) blur(2px);
+    display: block;
 }
 .home__container {
     width: 100%;
     height: 100vh;
-    /* background-image: linear-gradient(rgb(116, 194, 218), rgb(245, 239, 239)), url('./SnowBackground.jpg') ;*/
-    background-blend-mode: saturation;
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     position: relative;
@@ -83,8 +82,15 @@
 }
 
 @media (min-width: 1050px) {
-    .home__container {
-        /* background-image: linear-gradient(rgb(116, 194, 218), rgb(245, 239, 239)), url('./SnowBackground.jpg'); */
+    .wallpaper1 {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        filter: grayscale(80%) blur(2px);
+        display: block;
+    }
+    .wallpaper2 {
+        display: none;
     }
     .title {
         margin-top: 5%;

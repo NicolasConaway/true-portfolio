@@ -1,17 +1,15 @@
 import React from 'react';
 import './styles.css'
-import SnowVid from './SkyVid.mp4'
+import DesktopImage from './SnowBackground.jpg'
+import PhoneImage from './SnowBackgroundPortrait.jpg'
 
 class Home extends React.Component {
 
     render() {
         return (
             <>
-
-                <video autoPlay muted loop className="myVideo">
-                    <source src={SnowVid} type="video/mp4" />
-                </video>
-
+                <img src={DesktopImage} className="wallpaper1"/>
+                <img src={PhoneImage} className="wallpaper2"/>
                 <div className="home__container">
                     <div className="title">
                         <h1 className="welcome">Welcome</h1>
