@@ -1,11 +1,17 @@
 import React from 'react';
 import './styles.css'
+import SnowVid from './SnowVid.mp4'
 
 class Home extends React.Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <>
+
+                <video autoPlay muted loop className="myVideo">
+                    <source src={SnowVid} type="video/mp4" />
+                </video>
+
                 <div className="home__container">
                     <div className="title">
                         <h1 className="welcome">Welcome</h1>
