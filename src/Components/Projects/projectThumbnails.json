@@ -14,8 +14,10 @@
         "id": 2
     },
     {
-        "name":"Project 3",
-        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "name":"Hotel App",
+        "thumbnail":"./ProjectScreenshots/hotelApp.png",
+        "siteLink":"https://nics-hotel-app.netlify.app/index.html",
+        "githubLink":"https://github.com/NicolasConaway/hotel-app",
         "id": 3
     },
     {

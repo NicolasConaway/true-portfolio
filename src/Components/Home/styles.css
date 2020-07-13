@@ -5,10 +5,9 @@
     background-blend-mode: saturation;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .title{
@@ -27,28 +26,30 @@
     text-transform: uppercase;
     margin: 5% 0 5% -100%;
 } 
-
 .welcome {
-    animation: slidein 1s forwards;
+    animation: slidein .75s forwards;
     animation-delay: 1s;
 }
 .to {
-    animation: slidein 1s forwards;
+    animation: slidein .75s forwards;
     animation-delay: 2s;
 }
 .nic {
-    animation: slidein 1s forwards;
+    animation: slidein .75s forwards;
     animation-delay: 3s;
 }
 .portfolio {
-    animation: slidein 1s forwards;
+    animation: slidein .75s forwards;
     animation-delay: 4s;
 }
-
-span::before {
+.nameSpan::before {
     content: "My";
     animation: textChange .75s;
     animation-delay: 5s;
+}
+
+.title2 {
+    display: none;
 }
 
 @keyframes slidein {
@@ -71,4 +72,45 @@ span::before {
     100% {
         content: "My";
     }
+}
+
+@media (min-width: 1050px) {
+    .title {
+        margin-top: 5%;
+    }
+    .title h1 {
+        margin: 4% 0 4% -100%;
+        font-size: 4.5rem;
+    }
+
+    .title2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .title2 h1 {
+        color: black;
+        font-weight: bold;
+        text-shadow: 3px 3px rgb(255, 255, 255), -3px -3px rgb(255, 255, 255);
+        text-transform: uppercase;
+        margin: 8% 0 8% 100%;
+
+        /* display: flex;
+        justify-content: flex-end; */
+    }
+    .fullName {
+        font-size: 4.5rem;
+        animation: slidein2 1s forwards;
+        animation-delay: 7s;
+    }
+    .role {
+        font-size: 3rem;
+        animation: slidein2 1s forwards;
+        animation-delay: 7.5s;
+    }
+
+
+    @keyframes slidein2 {
+        100% { margin-right: 0; }
+    } 
 }

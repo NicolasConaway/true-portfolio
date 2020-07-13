@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Navbar extends React.Component {
 
@@ -11,6 +11,7 @@ class Navbar extends React.Component {
     render() {
 
         const hamburgerClicked = this.state.isHamburgerClicked;
+
         return (
             <>
                 <div className="hamburger__container">
@@ -25,29 +26,34 @@ class Navbar extends React.Component {
 
                 <nav className={hamburgerClicked ? "hideNavbar navbar" : "hideNavbar"}>
                     <ul>
-                        <Link to="/" 
-                        onClick={() => this.setState({ isHamburgerClicked: false })}
-                        className="link">
-                             Home
-                        </Link>
+                        <NavLink to="/"
+                            onClick={() => this.setState({ isHamburgerClicked: false })}
+                            className="link"
+                            exact
+                            activeClassName="selected">
+                            Home
+                        </NavLink>
 
-                        <Link to="/projects"
-                        onClick={() => this.setState({ isHamburgerClicked: false })}
-                        className="link">
+                        <NavLink to="/projects"
+                            onClick={() => this.setState({ isHamburgerClicked: false })}
+                            className="link"
+                            activeClassName="selected">
                             Projects
-                        </Link>
+                        </NavLink>
 
-                        <Link to="/aboutme"
-                        onClick={() => this.setState({ isHamburgerClicked: false })}
-                        className="link">
+                        <NavLink to="/aboutme"
+                            onClick={() => this.setState({ isHamburgerClicked: false })}
+                            className="link"
+                            activeClassName="selected">
                             About Me
-                        </Link>
+                        </NavLink>
 
-                        <Link to="/contact"
-                        onClick={() => this.setState({ isHamburgerClicked: false })}
-                        className="link">
+                        <NavLink to="/contact"
+                            onClick={() => this.setState({ isHamburgerClicked: false })}
+                            className="link"
+                            activeClassName="selected">
                             Contact Me
-                        </Link>
+                        </NavLink>
 
                     </ul>
                 </nav>
