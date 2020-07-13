@@ -8,8 +8,8 @@ class Home extends React.Component {
     render() {
         return (
             <>
-                <img src={DesktopImage} className="wallpaper1"/>
-                <img src={PhoneImage} className="wallpaper2"/>
+                <img src={DesktopImage} alt={DesktopImage} className="wallpaper1"/>
+                <img src={PhoneImage} alt={PhoneImage} className="wallpaper2"/>
                 <div className="home__container">
                     <div className="title">
                         <h1 className="welcome">Welcome</h1>
