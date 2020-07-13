@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css'
-import SnowVid from './SnowVid.mp4'
+import SnowVid from './SkyVid.mp4'
 
 class Home extends React.Component {
 
