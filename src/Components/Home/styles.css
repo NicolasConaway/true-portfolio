@@ -5,7 +5,6 @@
     background-blend-mode: saturation;
     background-size: cover;
     background-position: center;
-    position: relative;
     display: flex;
     align-items: center;
 }
@@ -17,6 +16,7 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
+   position: relative;
 }
  .title h1 {
     color: black;
@@ -24,7 +24,7 @@
     font-weight: bold;
     text-shadow: 3px 3px rgb(255, 255, 255), -3px -3px rgb(255, 255, 255);
     text-transform: uppercase;
-    margin: 5% 0 5% -100%;
+    margin: 8% 0 8% -100%;
 } 
 .welcome {
     animation: slidein .75s forwards;
@@ -77,25 +77,29 @@
 @media (min-width: 1050px) {
     .title {
         margin-top: 5%;
+        width: 50%;
     }
     .title h1 {
-        margin: 3% 0 3% -100%;
+        margin: 6% 0 6% -100%;
         font-size: 4.5rem;
     }
 
     .title2 {
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         margin: 0;
         padding: 0;
-        position: fixed;
+        position: relative;
+        right: 0;
+        animation: positionChange .1s backwards;
+        animation-delay: 7.1s;
     }
     .title2 h1 {
         color: black;
         font-weight: bold;
         text-transform: uppercase;
-        margin: 2% 5% 2% 0;
+        margin: 4% 5% 4% 0;
         text-align: end;
     }
     .fullName {
@@ -116,11 +120,18 @@
         from {
             margin-right: -100%;
            
-          }
-        
+        }
           to {
             margin-right: 5%;
             
           }
     } 
+    @keyframes positionChange {
+        from {
+            position: fixed;
+        }
+        to {
+            position: relative;
+        }
+    }
 }

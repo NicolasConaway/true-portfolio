@@ -48,7 +48,7 @@
 ------------------------------------------------- */
 .model__container {
     border-radius: 15px 0;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
     display: flex;
 }
 .model__container a {
