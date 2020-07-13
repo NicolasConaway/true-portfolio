@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css'
-import DesktopImage from './SnowBackground.jpg'
+import DesktopImage from './CodingWallpaper.jpg'
 import PhoneImage from './SnowBackgroundPortrait.jpg'
 
 class Home extends React.Component {
@@ -20,7 +20,7 @@ class Home extends React.Component {
 
                     <div className="title2">
                         <h1 className="fullName">Nic Conaway</h1>
-                        <h1 className="role">Front-End Desiner</h1>
+                        <h1 className="role">Front-End Designer</h1>
                     </div>
                 </div>
             </>
