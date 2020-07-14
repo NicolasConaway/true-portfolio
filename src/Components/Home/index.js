@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css'
 import DesktopImage from './CodingWallpaper.jpg'
-import PhoneImage from './SnowBackgroundPortrait.jpg'
+import PhoneImage from './CodingWallpaperPortrait.jpg'
 
 class Home extends React.Component {
 

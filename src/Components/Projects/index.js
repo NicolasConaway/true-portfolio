@@ -29,6 +29,7 @@ class Projects extends React.Component {
         return (
 
             <>
+                <div className="background"/>
                 <div className="projects">
                     <h1>My Projects</h1>
                     <div className="projects__container">
