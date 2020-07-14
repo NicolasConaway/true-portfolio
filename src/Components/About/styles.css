@@ -5,6 +5,7 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
+    padding: 5% 0;
 }
 .about h1{
     text-decoration: underline;

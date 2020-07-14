@@ -100,8 +100,9 @@
     }
     .hideNavbar {
         right: 0;
-        height: 10vh;
+        height: 10%;
         box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.712);
+        padding: 1% 0;
     }
     .hideNavbar ul {
         flex-direction: row;
