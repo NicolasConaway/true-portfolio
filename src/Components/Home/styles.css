@@ -51,7 +51,7 @@
 }
 .nameSpan::before {
     content: "My";
-    animation: textChange .75s;
+    animation: textChange .65s;
     animation-delay: 5s;
 }
 

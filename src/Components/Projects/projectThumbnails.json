@@ -21,8 +21,10 @@
         "id": 3
     },
     {
-        "name":"Project 4",
-        "thumbnail":"./ProjectScreenshots/aYouthsHeartThumbnail.png",
+        "name":"CSS Site",
+        "thumbnail":"./ProjectScreenshots/cssSite.png",
+        "siteLink":"https://nics-css-site.netlify.app/",
+        "githubLink":"https://github.com/NicolasConaway/css-project",
         "id": 4
     },
     {
