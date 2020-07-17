@@ -25,13 +25,15 @@
 .footer a {
     display: flex;
     justify-content: center;
-    width: 25%;
+    width: 20px;
+    height: 20px;
     background: white;
     border-radius: 50%;
     padding: 4%;
 }
 .footer img {
-    width: 100%;
+    width: 20px;
+    height: 20px;
 }
 
 @media (min-width: 1050px) {
@@ -45,10 +47,13 @@
         margin-left: 5%;
     }
     .footer a {
-        width: 30px;
-    }
-    .footer a {
+        width: 25px;
+        height: 25px;
         padding: 2%;
+    }
+    .footer img {
+        width: 25px;
+        height: 25px;
     }
     .footerLinks {
         width: 20%;
