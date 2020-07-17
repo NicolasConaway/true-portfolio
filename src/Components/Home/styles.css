@@ -35,24 +35,24 @@
 } 
 .welcome {
     animation: slidein .75s forwards;
-    animation-delay: 1s;
+    animation-delay: .5s;
 }
 .to {
     animation: slidein .75s forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 .nic {
     animation: slidein .75s forwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 .portfolio {
     animation: slidein .75s forwards;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 .nameSpan::before {
     content: "My";
     animation: textChange .65s;
-    animation-delay: 5s;
+    animation-delay: 2.5s;
 }
 
 .title2 {
@@ -122,7 +122,7 @@
     }
     .title h1 {
         margin: 5% 0 5% -100%;
-        font-size: 4.2rem;
+        font-size: 4rem;
     }
 
     .title2 {
@@ -134,7 +134,7 @@
         position: relative;
         right: 0;
         animation: positionChange .1s backwards;
-        animation-delay: 7.1s;
+        animation-delay: 4.1s;
     }
     .title2 h1 {
         color: white;
@@ -144,15 +144,15 @@
         text-align: end;
     }
     .fullName {
-        font-size: 4.2rem;
+        font-size: 4rem;
         animation: slidein2 .75s backwards;
-        animation-delay: 6s;
+        animation-delay: 3s;
         text-shadow: -3px -3px 0 #282828, 3px -3px 0 #282828, -3px 3px 0 #282828, 3px 3px 0 #282828;
     }
     .role {
-        font-size: 3rem;
+        font-size: 2.8rem;
         animation: slidein2 .75s backwards;
-        animation-delay: 6.5s;
+        animation-delay: 3.5s;
         text-shadow: -3px -3px 0 #282828, 3px -3px 0 #282828, -3px 3px 0 #282828, 3px 3px 0 #282828;
     }
     .projectButton {

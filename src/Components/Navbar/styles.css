@@ -101,7 +101,7 @@
     .hideNavbar {
         right: 0;
         height: 6%;
-        box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.712);
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.712);
         padding: 1% 0;
         align-items: flex-end;
     }
