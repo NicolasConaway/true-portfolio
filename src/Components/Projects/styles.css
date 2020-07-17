@@ -1,18 +1,17 @@
 .projects {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 3% 0;
+    padding: 5% 0;
 }
 .projects h1 {
     color: white;
     text-align: center;
     text-decoration: underline;
     font-size: 2.9rem;
-    margin: 4% 0 0 0;
+    margin: 0 0 0 0;
 }
 .projects__container {
     display: flex;

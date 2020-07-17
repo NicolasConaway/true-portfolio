@@ -1,11 +1,10 @@
 .about {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    padding: 5% 0 0 0;
+    padding: 5% 0;
 }
 .about__container {
     display: flex;

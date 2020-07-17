@@ -1,11 +1,10 @@
 .social {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    padding: 4% 0;
+    padding: 5% 0;
 }
 .social h1 {
     text-decoration: underline;
