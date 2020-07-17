@@ -59,10 +59,11 @@
 
 @media (max-width: 1500px) and (max-height: 950px){
     .about {
-        padding: 7% 0 0 0;
+        padding: 8% 0 3% 0;
     }
     .about__container {
         justify-content: space-around;
+        margin: 2% 0 0 0;
     }
     .about__txt {
         width: 50%;
