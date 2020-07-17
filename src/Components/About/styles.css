@@ -28,7 +28,8 @@
     color: white;
 }
 .about img {
-    width: 18%;
+    width: 350px;
+    height: 550px;
     border-radius: 50px;
     margin: 0 0 0 0;
     border: 5px solid white;
@@ -72,6 +73,9 @@
 }
 
 @media (max-width: 750px) { 
+    .about {
+        padding: 12% 0 4% 0;
+    }
     .about__container {
         margin: 2% 0 0 0;
         flex-direction: column;
@@ -88,7 +92,8 @@
         font-size: 1.75rem;
     }
     .about img {
-        width: 30%;
+        width: 170px;
+        height: 250px;
         margin: 4% auto 0 auto;
         display: block;
 
