@@ -102,22 +102,10 @@
     }
 }
 
-@media (min-width: 1050px) {
-    .title h1 {
-        margin: 3% 0 3% -100%;
-        font-size: 4rem;
-    }
-    .title2 h1 {
-        color: white;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin: 3% 5% 3% 0;
-        text-align: end;
-    }
-}
 
-@media (min-width: 1500px) {
-     /* .home__container {
+
+@media (min-width: 1050px) {
+    /* .home__container {
         padding: 3% 0 1% 0;
     } */
     .home__container {
@@ -138,7 +126,7 @@
         width: 50%;
     }
     .title h1 {
-        margin: 6% 0 6% -100%;
+        margin: 3% 0 3% -100%;
         font-size: 4rem;
     }
 
@@ -157,7 +145,7 @@
         color: white;
         font-weight: bold;
         text-transform: uppercase;
-        margin: 6% 5% 6% 0;
+        margin: 3% 5% 3% 0;
         text-align: end;
     }
     .fullName {
@@ -194,5 +182,19 @@
         to {
             position: relative;
         }
+    }
+}
+
+@media (min-width: 1500px) {
+    .title h1 {
+        margin: 6% 0 6% -100%;
+        font-size: 4rem;
+    }
+    .title2 h1 {
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 6% 5% 6% 0;
+        text-align: end;
     }
 }
