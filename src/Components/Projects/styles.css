@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 .projects h1 {
     color: white;
@@ -54,19 +54,19 @@
     display: flex;
 }
 .model__container a {
-    color: #3d405b;
+    color: white;
     text-decoration: none;
-    
+    font-size: 1.5rem;
 }
 .modelRight {
-    background-color: #e07a5f;
+    background-color: #3500D3;
     border-radius: 15px 0 0 0;
-    border-right: 1px solid #3d405b;
+    border-right: 1px solid white;
 }
 .modelLeft {
-    background-color: #f2cc8f;
+    background-color: #282828;
     border-radius: 0 0 15px 0;
-    border-left: 1px solid #3d405b;
+    border-left: 1px solid white;
 }
 .modelRight,
 .modelLeft {
@@ -81,10 +81,10 @@
     margin: 0;
 }
 .modelRight:hover {
-    background-color: #ce735a;
+    background-color: #4719d1;
 }
 .modelLeft:hover {
-    background-color: #dfbb82;
+    background-color: #3a3a3a;
 }
 
 .noExit {
@@ -93,22 +93,24 @@
 .exit {
     width: 4.5vw;
     height: 6vh;
-    background-color: #3d405b;
+    background-color: #240090;
     bottom: 0;
     left: 41%;
     border-radius: 50% 50% 0 0;
     position: absolute;
     cursor: pointer;
     z-index: 5;
+    border: white solid 2px;
+    border-bottom: none;
 }
 .exit:hover {
-    background-color: #4e5374;
+    background-color: #351594;
 }
 .rightX, 
 .leftX {
     width: 1.9vw;
     height: .4vh;
-    background-color: #f4f1de;
+    background-color: white;
     left: 28%;
     top: 50%;
     position: absolute;
@@ -121,7 +123,22 @@
     transform: rotate(-45deg) 
 }
 
-
+@media (max-width: 1515px) {
+    .projects {
+        padding: 5% 0;
+    }
+    .saveMe {
+        margin: 1% 2%;
+        width: 28%;
+    }
+    .modelRight,
+    .modelLeft {
+        width: 14vw;
+    }
+    .exit {
+        left: 42%;
+    }
+}
 
 @media (max-width: 750px) {
     .projects h1 {
@@ -153,13 +170,13 @@
         font-size: .65rem;
     }
     .exit {
-        width: 37px;
-        height: 28.33px;
-        left: 40%;
+        width: 45px;
+        height: 35px;
+        left: 36.5%;
     }
     .rightX, 
     .leftX {
-        width: 15px;
+        width: 19px;
         height: 2px;
     }
 }

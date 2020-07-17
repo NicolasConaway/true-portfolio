@@ -1,15 +1,16 @@
 import React from 'react';
 import './styles.css'
-import DesktopImage from './CodingWallpaper.jpg'
-import PhoneImage from './CodingWallpaperPortrait.jpg'
+import DesktopImage from './keyboard.jpg'
+import PhoneImage from './keyboardPortrait.jpg'
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
 
     render() {
         return (
             <>
-                <img src={DesktopImage} alt={DesktopImage} className="wallpaper1"/>
-                <img src={PhoneImage} alt={PhoneImage} className="wallpaper2"/>
+                <img src={DesktopImage} alt={DesktopImage} className="wallpaper1" />
+                <img src={PhoneImage} alt={PhoneImage} className="wallpaper2" />
                 <div className="home__container">
                     <div className="title">
                         <h1 className="welcome">Welcome</h1>
@@ -23,6 +24,11 @@ class Home extends React.Component {
                         <h1 className="role">Front-End Designer</h1>
                     </div>
                 </div>
+                <div className="projectButton__wrapper">
+                    <Link className="projectButton"
+                    to="/projects">Take A Look At The Projects</Link>
+                </div>
+                
             </>
         )
     }

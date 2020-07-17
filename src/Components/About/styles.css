@@ -5,50 +5,93 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    padding: 5% 0;
+    padding: 5% 0 0 0;
+}
+.about__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0 0 0;
+    flex-direction: row-reverse;
+}
+.about__txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 .about h1{
     text-decoration: underline;
     font-size: 2.9rem;
     text-align: center;
-    padding-top: 2%;
     margin: 0;
     color: white;
 }
 .about img {
-    width: 15%;
-    border-radius: 50%;
-    margin-top: 2%;
+    width: 18%;
+    border-radius: 50px;
+    margin: 0 0 0 0;
     border: 5px solid white;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
 }
 .about p {
     color: white;
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-align: center;
-    margin: 2% 8% 0 8%;
+    margin: 0;
 }
 .about a {
     border: 2px solid white;
-    margin-top: 2%;
+    margin-top: 4%;
     color: black;
     text-decoration: none;
     background-color: lightgray;
-    padding: 1%;
+    padding: 2% 1%;
     border-radius: 20px;
     box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+    width: 25%;
+    text-align: center;
 }
 .about a:hover {
     background-color: rgb(192, 187, 187);
 }
 
+@media (max-width: 1515px) {
+    .about {
+        padding: 3% 0 0 0;
+    }
+    .about__container {
+        justify-content: space-around;
+    }
+    .about__txt {
+        width: 50%;
+    }
+    .about a {
+        width: 35%;
+    }
+}
+
 @media (max-width: 750px) { 
+    .about__container {
+        margin: 2% 0 0 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about__txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .about h1 {
         font-size: 1.75rem;
     }
     .about img {
         width: 30%;
-        margin-top: 4%;
+        margin: 4% auto 0 auto;
+        display: block;
+
     }
     .about p {
         font-size: 1.3rem;
@@ -59,5 +102,6 @@
         padding: 2%;
         border-radius: 20px;
         font-size: .75rem;
+        width: 45%;
     }
 }
