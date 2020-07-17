@@ -103,7 +103,21 @@
 }
 
 @media (min-width: 1050px) {
-    /* .home__container {
+    .title h1 {
+        margin: 3% 0 3% -100%;
+        font-size: 4rem;
+    }
+    .title2 h1 {
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 3% 5% 3% 0;
+        text-align: end;
+    }
+}
+
+@media (min-width: 1500px) and (min-height: 910px) {
+     /* .home__container {
         padding: 3% 0 1% 0;
     } */
     .home__container {
