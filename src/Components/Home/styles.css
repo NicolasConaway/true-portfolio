@@ -103,8 +103,12 @@
 }
 
 @media (min-width: 1050px) {
-    .home__container {
+    /* .home__container {
         padding: 3% 0 1% 0;
+    } */
+    .home__container {
+        align-items: flex-start;
+        position: relative;
     }
     .wallpaper1 {
         height: 100vh;
@@ -120,7 +124,7 @@
         width: 50%;
     }
     .title h1 {
-        margin: 3% 0 3% -100%;
+        margin: 6% 0 6% -100%;
         font-size: 4rem;
     }
 
@@ -128,7 +132,7 @@
         width: 50%;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin: 11% 0 0 0;
         padding: 0;
         position: relative;
         right: 0;
@@ -139,7 +143,7 @@
         color: white;
         font-weight: bold;
         text-transform: uppercase;
-        margin: 3% 5% 3% 0;
+        margin: 6% 5% 6% 0;
         text-align: end;
     }
     .fullName {
