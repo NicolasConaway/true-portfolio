@@ -17,6 +17,28 @@ class About extends React.Component {
 
                         <div className="about__txt">
                             <p>Hello, my name is Nicolas Conaway. I am a Road to Hire student who's striving to become a front end developer. My strong points are spotting small bugs in front end and being able to research my way out of a road block.</p>
+                            <div className="skills__container">
+                                <div className="techSkills">
+                                    <h4>Tech Skills</h4>
+                                    <ul>
+                                        <li>CSS</li>
+                                        <li>HTML</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                    </ul>
+                                </div>
+
+                                <div className="profSkills">
+                                    <h4>Professional Skills</h4>
+                                    <ul>
+                                        <li>Agile</li>
+                                        <li>Time Management</li>
+                                        <li>Public Speaking</li>
+                                        <li>Communication</li>
+                                    </ul>
+                                </div>
+                            </div>
+
                             <a href={Download}
                                 target="_blank"
                                 rel="noopener noreferrer"

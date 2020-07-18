@@ -10,7 +10,11 @@ class Footer extends React.Component {
         return (
             <>
                 <footer className="footer">
-                    <p>Copyright © 2020 All Rights Reserved.</p>
+                    <div className="footerText">
+                        <p>7/17/2020</p>
+                        <p>Copyright © 2020 All Rights Reserved.</p>
+                    </div>
+                    
                     <div className="footerLinks">
                         <a href="https://www.linkedin.com/in/nicolas-conaway/"
                                 target="_blank"

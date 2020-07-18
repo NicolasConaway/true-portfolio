@@ -140,6 +140,9 @@
 }
 
 @media (max-width: 750px) {
+    .projects {
+        padding: 25% 0 10% 0;
+    }
     .projects h1 {
         font-size: 1.75rem;
     }

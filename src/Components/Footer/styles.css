@@ -16,6 +16,9 @@
     display: flex;
     justify-content: space-around;
 }
+.footerText {
+    width: 70%;
+}
 .footer p{
     text-align: center;
     font-size: .8rem;
@@ -57,5 +60,8 @@
     }
     .footerLinks {
         width: 20%;
+    }
+    .footerText {
+        width: 30%;
     }
 }

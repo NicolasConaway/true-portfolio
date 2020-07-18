@@ -40,5 +40,33 @@
         "siteLink":"https://site-not-found.netlify.app/",
         "githubLink":"https://github.com/NicolasConaway/med-bot-app",
         "id": 6
+    },
+    {
+        "name":"Tic Tac Toe Game",
+        "thumbnail":"./ProjectScreenshots/ticTacToe.png",
+        "siteLink":"https://nics-tictactoe.netlify.app/",
+        "githubLink":"https://github.com/NicolasConaway/tic-tac-toe",
+        "id": 7
+    },
+    {
+        "name":"Number Guessing Game",
+        "thumbnail":"./ProjectScreenshots/speechRecognition.png",
+        "siteLink":"https://nic-guessing-game.netlify.app/",
+        "githubLink":"https://github.com/NicolasConaway/speech-recognition",
+        "id": 8    
+    },
+    {
+        "name":"Animated Navbar",
+        "thumbnail":"./ProjectScreenshots/animatedNavbar.png",
+        "siteLink":"https://nics-animated-navbar.netlify.app/",
+        "githubLink":"https://github.com/NicolasConaway/css-navbar",
+        "id": 9    
+    },
+    {
+        "name":"Samsung Redesign",
+        "thumbnail":"./ProjectScreenshots/samsung2.png",
+        "siteLink":"https://redesign-team-9.netlify.app/",
+        "githubLink":"https://github.com/LeCoding-tech/Redesign-team-9",
+        "id": 10    
     }
 ]
